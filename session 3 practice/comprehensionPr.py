@@ -59,3 +59,12 @@ dictComp ={num: num*2 for num in values }
 
 print("this is dictonary comprehansion ", dictComp)
 
+
+
+# set comprehension
+
+set_com =  {1,3,5,8,10}
+
+output= { i for i in range(len(set_com)) if not i%2 }
+
+print("Set comprehension : ",output)

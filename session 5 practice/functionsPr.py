@@ -113,3 +113,12 @@ user.sort(key=lambda usr: usr[1])
 # this lambda function sort the value  of each iterations
 
 print(user)
+
+
+def sample():
+    global a
+    a+=10
+    print(f"local:{a}")
+a = 100
+sample()
+print(f"global:{a}")
